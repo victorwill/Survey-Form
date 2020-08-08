@@ -1,0 +1,167 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container">
+<header>
+<h1 id="title" class="text-center"> Jumia Survey form</h1>
+
+  <p id="description" class="description text-center">Thank you for taking time to improve our services</p>
+  </header>
+  
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">
+        Name :
+      </label>
+      <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required >
+      
+    </div>
+    
+    <div class="form-group">
+      <label id="email-label" for="email">
+        Email :
+      </label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required >
+    </div>
+   
+     <div class="form-group">
+      <label id="number-label" for="number"
+        >Age  <span class="clue">(optional) </span>:</label
+      >
+      <input
+        type="number" name="age"
+id="number" min="16"max="99" class="form-control" placeholder="Age"/>
+    </div>
+    
+    <div class="form-group">
+      <p> From what location did you access our services?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select your location</option>
+        
+         <option value="Abia">Abia</option>
+        <option value="Abuja">Abuja</option>
+  <option value="Adamawa">Adamawa</option>
+ <option value="Akwa Ibom">Akwa Ibom</option>
+ <option value="Anambra">Anambra</option>
+        <option value="Bauchi">Bauchi</option>
+        <option value="Bayelsa">Bayelsa</option>
+        <option value="Benue">Benue</option>
+        <option value="Borno">Borno</option>
+        <option value="Cross River">Cross River</option>
+        <option value="Delta">Delta</option>
+        <option value="Ebonyi">Ebonyi</option>
+        <option value="Edo">Edo</option>
+        <option value="Ekiti">Ekiti</option>
+        <option value="Enugu">Enugu</option>
+        <option value="Gombe">Gombe</option>
+        <option value="Imo">Imo</option>
+        <option value="Jigawa">Jigawa</option>
+        <option value="Kaduna">Kaduna</option>
+        <option value="Kano">Kano</option>
+        <option value="Katsina">Katsina</option>
+        <option value="Kebbi">Kebbi</option>
+        <option value="Kogi">Kogi</option>
+        <option value="Kwara">Kwara</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Nasarawa">Nasarawa</option>
+        <option value="Niger">Niger</option>
+       <option value="Ogun">Ogun</option>
+        <option value="Ondo">Ondo</option>
+        <option value="Osun">Osun</option>
+        <option value="Oyo">Oyo</option>
+        <option value="Plateau">Plateau</option>
+        <option value="Rivers">Rivers</option>
+        <option value="Sokoto">Sokoto</option>
+        <option value="Taraba">Taraba</option>
+        <option value="Yobe">Yobe</option>
+        <option value="Zamfara">Zamfara</option>
+         <option value="Other">Other</option>
+               
+      </select>
+      </div>
+    
+    <div class="form-group">
+      <p>Would you recommend Jumia to a friend?</p>
+      
+      <label>
+        <input type="radio"  name="user-recommend" value="definitely" type="radio" class="input-radio" >
+        Definitely
+      </label>
+       <label>
+        <input type="radio"  name="user-recommend" value="probably" type="radio" class="input-radio" >
+        Probably
+      </label>
+       <label>
+        <input type="radio"  name="user-recommend" value="never" type="radio" class="input-radio" >
+        Never
+      </label>
+   </div>
+    
+    <div class="form-group">
+      <p>What is your favorite feature of Jumia? </p>
+       <select id="most-like" name="most-like" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+         
+          <option value="JumiaPay">JumiaPay</option>
+          <option value="JumiaFood">JumiaFood</option>
+          <option value="JumiaParty">JumiaParty</option>
+          <option value="JumiaNow">JumiaNow</option>
+      </select>
+      
+      <div class="form-group">
+        <p class="change">What would you like to see changed in our services? <span class="clue">(Check all that apply)</span></p>
+        
+        <label>
+          <input name="prefer" value="payment-methods" type="checkbox"class="input-checkbox" >Payment Methods </label>
+        
+         <label>
+          <input name="prefer" value="delivery-dates" type="checkbox"class="input-checkbox" >Delivery dates </label>
+        
+         <label>
+          <input name="prefer" value="customer-service" type="checkbox"class="input-checkbox" >Customer service  </label>
+        
+         <label>
+          <input name="prefer" value="website" type="checkbox"class="input-checkbox" >Website </label>
+        
+         <label>
+          <input name="prefer" value="variety-of-product-brands" type="checkbox"class="input-checkbox" >Variety of product brands </label>
+        
+         <label>
+          <input name="prefer" value="packaging" type="checkbox"class="input-checkbox" >Packaging </label>
+        
+         <label>
+          <input name="prefer" value="product-reviews" type="checkbox"class="input-checkbox" >Product reviews </label>
+        
+         <label>
+          <input name="prefer" value="prices" type="checkbox"class="input-checkbox" >Prices </label>
+        
+ </div>
+      
+      <div class="form-group">
+        <p>Tell us a little more about your experience with Jumia</p>
+        <textarea id="comments"  class="input-textarea" name="comment" placeholder="Comments and suggestions..."></textarea>
+
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+    
+ 
+  </form>
+    
+    
+  
+
+  
+  
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> -->
+  
+</div>
+  
+   <footer>Project by <a href="https://codepen.io/Vicodex17">Vicodex17</a></footer>
